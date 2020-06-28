@@ -46,7 +46,7 @@ public class cluster : MonoBehaviour
 
     void OnMouseDown()
     {
-        parity = parity!;
+        parity = !parity;
         if (parity)
         {
             x2 = gameObject.transform.position.x;
